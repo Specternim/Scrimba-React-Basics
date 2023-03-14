@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+
+  background-color: #282d35;
+  color: #deebf8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+  background-color: #21222a;
+  color: white;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 7px;
+}
+
+nav h3 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav h4 {
+  font-weight: 600;
+}
+
+main {
+  padding: 57px 27px;
+}
+
+.main--title {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+main {
+  background-image: url("../public/atomblack.png");
+  background-repeat: no-repeat;
+  filter: contrast(0.5);
+  background-position-x: 160%;
+  background-position-y: center;
+
+  /* properties valid only when working with 50vw */
+}
